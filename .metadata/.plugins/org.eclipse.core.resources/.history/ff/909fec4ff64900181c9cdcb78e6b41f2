@@ -1,0 +1,15 @@
+package com.gmail.kirovdmitriy;
+
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String text = "I can text anything here but who cares?";
+		wordCount(text);
+	}
+	public static void wordCount(String text) {
+		int count = text.split("[-#$%^&!,.0-9\\ ]+ ").length;
+		System.out.println(count);
+	}
+}

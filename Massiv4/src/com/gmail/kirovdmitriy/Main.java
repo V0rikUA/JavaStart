@@ -1,0 +1,23 @@
+package com.gmail.kirovdmitriy;
+
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int a= 0;
+		String string = "Play of the game";
+		char ch1 = 'a';
+		char[] charArray = string.toCharArray();
+		for (int i = 0; i < charArray.length; i++) {
+			char c = charArray[i];
+			if (c == ch1) {
+				a=a+1;
+			}
+			
+		}
+		System.out.println(Arrays.toString(charArray));
+		System.out.println(a);
+	}
+
+}

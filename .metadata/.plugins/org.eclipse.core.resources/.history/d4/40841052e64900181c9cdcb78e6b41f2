@@ -1,0 +1,24 @@
+package com.gmail.kirovdmitriy;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int[] massiv = new int[a];
+		for (int i = 0; i < massiv.length; i++) {
+			int j = massiv[i];
+		    if (j == 0) {
+				Scanner sc2 = new Scanner(System.in);
+				j = sc.nextInt();
+			}
+		    massiv[i] = j;
+		}
+
+		System.out.println(Arrays.toString(massiv));
+	}
+
+}

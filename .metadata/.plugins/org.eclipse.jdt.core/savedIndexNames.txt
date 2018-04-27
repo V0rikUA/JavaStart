@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+E:\OneDrive\Java ALL\Work1\.metadata\.plugins\org.eclipse.jdt.core

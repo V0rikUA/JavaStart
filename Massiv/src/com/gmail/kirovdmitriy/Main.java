@@ -1,0 +1,19 @@
+package com.gmail.kirovdmitriy;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int a = 0;
+		int [] massiv = {0,5,2,4,7,1,3,19};
+		for (int i = 0; i < massiv.length; i++) {
+			int j = massiv[i];
+			if (j%2 != 0) {
+			 a= a+1;
+				
+			}
+		
+		}
+		System.out.println(a);
+	}
+
+}
